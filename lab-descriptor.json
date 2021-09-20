@@ -1,22 +1,86 @@
 {
     "broadArea": {
-        "name": "",
-        "link": ""
+        "name": "Computer Science and Engineering",
+        "link": "https://www.vlab.co.in/broad-area-computer-science-and-engineering"
     },
-    "lab": "",
-    "deployLab": ,
-    "phase": ,
-    "collegeName": "",
-    "baseUrl": "",
-    "introduction": "",
-    "experiments": [],
+    "lab": "Computer programming",
+    "deployLab": true,
+    "phase": 2,
+    "collegeName": "IIITH",
+    "baseUrl": "cse02-iiith.vlabs.ac.in",
+    "introduction": "Welcome to the Computer Programming Lab developed at IIIT Hyderabad. The interactive experiments in this lab will give the students an opportunity for learning and better understanding of the basic concepts and constructs of computer programming.",
+    "experiments": [
+        {
+      "name": "Numerical Approximation",
+      "short-name": "numerical-approximation",
+      "repo": "https://github.com/virtual-labs/exp-numerical-approximation-iiith",
+      "tag": "v1.0.0",
+      "deploy": true
+        },
+        {
+      "name": "Functions",
+      "short-name": "functions",
+      "repo": "https://github.com/virtual-labs/exp-functions-iiith",
+      "tag": "v1.0.0",
+      "deploy": true
+        },
+        {
+      "name": "Advanced Control Flow",
+      "short-name": "advanced-control-flow",
+      "repo": "https://github.com/virtual-labs/exp-advanced-control-flow-iiith",
+      "tag": "v1.0.0",
+      "deploy": true
+        },
+        {
+      "name": "Arrays",
+      "short-name": "arrays",
+      "repo": "https://github.com/virtual-labs/exp-arrays-iiith",
+      "tag": "v1.0.0",
+      "deploy": true
+        },
+        {
+      "name": "Structures",
+      "short-name": "structures",
+      "repo": "https://github.com/virtual-labs/exp-structures-iiith",
+      "tag": "v1.0.0",
+      "deploy": true
+        },
+        {
+      "name": "Basic Control Flow",
+      "short-name": "basic-control-flow",
+      "repo": "https://github.com/virtual-labs/exp-basic-control-flow-iiith",
+      "tag": "v1.0.0",
+      "deploy": true
+        },
+        {
+      "name": "Pointers",
+      "short-name": "pointers",
+      "repo": "https://github.com/virtual-labs/exp-pointers-iiith",
+      "tag": "v1.0.0",
+      "deploy": true
+        },
+        {
+      "name": "Recursion",
+      "short-name": "cp-recursion",
+      "repo": "https://github.com/virtual-labs/exp-cp-recursion-iiith",
+      "tag": "v1.0.0",
+      "deploy": true
+        },
+        {
+      "name": "Expression Evaluation",
+      "short-name": "cp-expression-evaluation",
+      "repo": "https://github.com/virtual-labs/exp-cp-expression-evaluation-iiith",
+      "tag": "v1.0.0",
+      "deploy": true
+        }
+        ],
     "targetAudience": {
-        "UG": [],
-        "PG": []
+        "UG": ["The experiments provides an introduction to Computer Programming to students at third year undergraduate"],
+        "PG": ["Ph. D. Beginners"]
     },
-    "objective": "",
+    "objective": "To supplement an undergraduate level course on Computer Programming and enable students to understand the subject better.",
     "courseAlignment": {
         "description": "",
-        "universities": []
+        "universities": ["This virtual lab is aligned with an introductory course on Computer Programming"]
     }
 }
