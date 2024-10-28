@@ -30,7 +30,7 @@
       "name": "Advanced Control Flow",
       "short-name": "advanced-control-flow",
       "repo": "https://github.com/virtual-labs/exp-advanced-control-flow-iiith",
-      "tag": "v1.0.0",
+      "tag": "v1.0.1",
       "deploy": true
     },
     {
